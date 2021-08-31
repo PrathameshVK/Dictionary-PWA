@@ -3,18 +3,19 @@
   background-color: #1c1d20;
   color: white;
   transition: all .5s linear;
+  overflow: hidden;
 }
 .AppLight{
   height: 100vh;
   background-color: white;
   color: #1c1d20;
   transition: all .5s linear;
+  overflow: hidden;
 }
 
 Container{
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .toggle{
