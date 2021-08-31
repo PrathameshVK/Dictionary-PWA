@@ -1,0 +1,44 @@
+.title{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 35vh;
+    width: 100%;
+}
+
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.search{
+    width: 60vw;
+    background: inherit;
+}
+.select{
+    width: 25vw;
+    background: inherit;
+}
+
+@media (max-width:900px){
+    .header{
+        height: 25vh;
+    }
+    .title{
+        font-size: 8vw;
+    }
+    .inputs{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    
+}

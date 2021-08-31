@@ -1,0 +1,64 @@
+.meanings{
+    display: flex;
+    flex-direction: column;
+    scrollbar-width: thin;
+    height: 50vh;
+    padding: 10px 20px;
+    overflow-x: hidden;
+}
+.subTitle{
+    background: url(https://res.cloudinary.com/pk1234/image/upload/v1617526433/logo_byywnf.png);    
+}
+
+audio{
+    margin: 0 auto;
+    width: 90%;
+}
+
+@media (max-width:900px){
+    .meanings{
+        height: 60vh;
+    }
+    .subTitle{
+        background-image: url("https://res.cloudinary.com/pk1234/image/upload/v1628358878/NoResults_jtnnst.png");
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+}
+
+.definition-card-dark{
+    background-color: #2c313c;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap:break-word;
+}
+.definition-card-light{
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin: 5px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    overflow-wrap:break-word;
+}
+
+.randomInfo{
+    font-size: 3vh;
+}
+
+button{
+    border: 2px solid #2c313c;
+    padding: 4px;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+button:hover{
+    background-color: #2c313c;
+    color: white;
+    cursor: pointer;
+}    

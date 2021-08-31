@@ -1,0 +1,42 @@
+.AppDark{
+  height: 100vh;
+  background-color: #1c1d20;
+  color: white;
+  transition: all .5s linear;
+}
+.AppLight{
+  height: 100vh;
+  background-color: white;
+  color: #1c1d20;
+  transition: all .5s linear;
+}
+
+Container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.toggle{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 2vw;
+  padding-top: 1vh;
+}
+
+.header{
+  padding-top: 3vh;
+}
+
+.defCard{
+  display: flex;
+  flex-direction: row;
+}
+
+.about{
+  top: 0;
+  left: 0;
+  padding-top: 2vh;
+  margin-left: 4vw;
+}
