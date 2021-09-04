@@ -1,3 +1,8 @@
+#Dictionary App
+
+This is a simple dictionary app made with reactjs and material ui. It's using dictionaryapi for searching the meanings and random-words-api for getting a random word.
+It has dark mode and light mode.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
